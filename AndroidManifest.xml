@@ -25,6 +25,7 @@
 
     <application>
         <activity android:name="DefaultActivity"
+		android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
                 android:excludeFromRecents="true">
             <intent-filter android:priority="1">
                 <action android:name="android.intent.action.MAIN" />
